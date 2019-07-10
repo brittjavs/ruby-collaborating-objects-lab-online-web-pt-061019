@@ -17,7 +17,6 @@ class Artist
   
   def save
     @@all << self 
-    self
     #self refers to instance since it is inside instance method
   end
   
